@@ -1,0 +1,12 @@
+# web相关的配置
+
+server:
+  # 端口号设置
+  port: 80
+  # 项目根路径
+  servlet:
+    context-path: /boot
+
+# spring.mvc.view.prefix和spring.mvc.view.suffix ==> 配置视图解析器的前缀和后缀
+# spring.resources.static-locations ==> 配置静态资源的位置(一般不用改，用默认的就行)
+# spring.http.encoding.charset和spring.http.encoding.enabled ==> 这两个属性用于配置HTTP请求和响应的字符编码。

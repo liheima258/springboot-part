@@ -1,0 +1,16 @@
+# YAML配置文件示例
+
+# “:” 后面要加空格
+
+spring:
+  profiles:
+    active: dev,test
+
+test:
+  username: admin
+  password: 123
+  list :
+    - a
+    - b
+    - c
+
